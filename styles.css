@@ -1,1 +1,28 @@
 /* your code */
+body{
+	margin:0;
+	font-family:sans-serif;
+	margin:auto;
+}
+thead{
+	background-color:#215a8e;
+	color:white;
+	text-align:start;
+}
+.row3,.row5{
+	background-color:#dddddd;
+}
+
+th,td{
+	padding:7px;
+	text-align:start;
+	vertical-align:center;
+}
+table{
+	border-spacing:0;
+/* 	border:2px solid grey; */
+	border-radius:8px;
+}
+tbody tr:hover{
+	box-shadow:3px 3px 3px grey;
+}
